@@ -1,0 +1,152 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: indianred;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: indianred;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#product {
+    margin-top: 2%;
+    margin-left: 20%;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+  
+  #product td, #product th {
+    border: 1px solid #ddd;
+    padding: 7px;
+  }
+  
+  #product tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #product tr:hover {background-color: #ddd;}
+  
+  #product th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(1,108,171);
+    color: white;
+  }
+
+#video {
+    margin-left: 19%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+
+#popup {
+    display: none;
+  }
+  
+  .popup-wrapper {
+    background: rgba(255, 6, 6, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  .popup-container {
+    background: #fff;
+    border-radius: 8px;
+    font-family: poppins;
+    font-size: 15px;
+    margin: 100px auto;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+  }
+  
+  .titulo {
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 5px;
+    height: 50px;
+    width: 450px;
+    margin-left: 18px;
+  }
+  .texto {
+    color: black;
+    height: 50px;
+    width: 475px;
+    padding-left: 0px;
+    padding-right: 10px;
+    margin-left: 10px ;
+    margin-right: 0px;
+    font-size: 18px;
+  }
+
+footer {
+
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: poppins;
+    background-color: indianred;
+    display: flex;
+    text-align: center;
+    clear: both;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}

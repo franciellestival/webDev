@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: indianred;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    align-items: center;
+    margin-left: 10%;
+    justify-content: space-around;
+    letter-spacing: 3px;
+}
+
+
+h2 {
+    font-size: 25px;
+    align-items: center;
+    margin-left: 10%;
+    justify-content: space-around;
+    letter-spacing: 3px;
+    padding-top: 3%;
+}
+
+p {
+    margin-left: 10%;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#leftCol {
+    margin-top: 7%;
+    float: left;
+    width: 50%;
+    height: 80vh;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#rightCol {
+    margin-top: 300px;
+    float: right;
+    width: 50%;
+    height: 80vh;
+}
+
+#aula1 img {
+    margin-left: 15%;
+    margin-top: 50px;
+    display: inline;
+    width: 70%;
+    height: 70%;
+}
+
+#aula2 img {
+    margin-left: 15%;
+    padding-top: 400px;
+    display: inline;
+    width: 70%;
+    height: 70%;
+}
+
+#aula3 img {
+    margin-left: 15%;
+    padding-top: 270px;
+    display: inline;
+    width: 70%;
+    height: 70%;
+}
+
+#aula4 img {
+    margin-left: 15%;
+    padding-top: 290px;
+    display: inline;
+    width: 70%;
+    height: 70%;
+}
+
+#botfim img {
+    margin-left: 10%;
+    padding-top: 300px;
+    padding-bottom:13%;
+    display: inline;
+    width: 25%;
+    height: 25%;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+button {
+    margin-left: 30%;
+    text-align: center;
+    width: 350px;
+    font-size: 18px;
+    transition: all 0.5s;
+    cursor: pointer;
+    background: none;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    background: rgb(1,108,171);
+}
+
+#buttonbox {
+    padding-bottom:13%;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.05s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#video {
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-bottom: 5px;
+}
+
+footer {
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: poppins;
+    background-color: indianred;
+    display: flex;
+    text-align: center;
+    clear: both;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
